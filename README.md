@@ -1,8 +1,12 @@
 # Limpet Morphometric Analysis
 
-This repository contains the code used for data generation in the paper **"[XXXXX]"**, published in *Scientific Reports* and available at DOI: [xxxx].
+This repository contains the code used for data generation in my paper titled: Genes, shells, and AI: using computer vision to detect cryptic morphological divergence between genetically distinct populations of limpets and available at https://www.nature.com/articles/s41598-025-30613-1
 
-## Contents
+The images used for this project can be downloaded here: https://www.bodc.ac.uk/data/published_data_library/catalogue/10.5285/490af551-ae77-2a79-e063-7086abc01bec/
+
+
+
+###### Contents of code repository ######
 
 ### Image Classification Pipelines
 
@@ -38,8 +42,7 @@ This directory contains:
 
 ## Data Access
 
-- **Images**: [Download link](xxxx)
-- **Labels**: [Download link](xxxx)
+
 
 ## Citation
 
