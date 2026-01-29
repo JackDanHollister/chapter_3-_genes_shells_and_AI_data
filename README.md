@@ -1,5 +1,3 @@
-# Limpet Morphometric Analysis
-
 This repository contains the code used for data generation in my paper titled: Genes, shells, and AI: using computer vision to detect cryptic morphological divergence between genetically distinct populations of limpets and available at https://www.nature.com/articles/s41598-025-30613-1
 
 The images used for this project can be downloaded here: https://www.bodc.ac.uk/data/published_data_library/catalogue/10.5285/490af551-ae77-2a79-e063-7086abc01bec/
@@ -8,7 +6,7 @@ The images used for this project can be downloaded here: https://www.bodc.ac.uk/
 
 ###### Contents of code repository ######
 
-### Image Classification Pipelines
+##### Image Classification Pipelines #####
 
 Two Jupyter notebooks implement the image classification workflows:
 
@@ -20,7 +18,7 @@ Two Jupyter notebooks implement the image classification workflows:
 - Ensures balanced class mixing across runs
 - Maintains 50% representation from each original class in the resulting classifications
 
-### YOLO Segmentation Pipeline
+#### YOLO Segmentation Pipeline ####
 
 **`yolo_and_segmentation_scripts.ipynb`**
 
@@ -30,23 +28,18 @@ This notebook demonstrates:
 - Extracting, standardizing, and deriving metrics from segmented regions
 - **Note:** YOLO model training requires labeled data
 
-### Data and Visualization
+#### Data and Visualization ####
 
 **`data_and_graph_makers/`**
 
 This directory contains:
-- F1-scores from 'Test-even' and 'Full-test' evaluations for all species across 100 iterations
+- F1-scores from 'Test-even' and 'Full-test' evaluations for all groups within each species and across 100 iterations
 - Shape metrics derived from *Fissurella volcano* (FV) keyhole measurements
 - Shell metric assessments for *Lottia conus* (LC), *Lottia gigantea* (LG), and *Lottia strigatella* (LS)
 - `graph_maker.ipynb` - notebook for generating all figures used in the paper
 
-## Data Access
 
+#### Citation ####
 
+If you use this code, please cite: Hollister, J.D., Paz-García, D.A., Beas-Luna, R. et al. Genes, shells, and AI: using computer vision to detect cryptic morphological divergence between genetically distinct populations of limpets. Sci Rep 16, 1051 (2026). https://doi.org/10.1038/s41598-025-30613-1
 
-## Citation
-
-If you use this code, please cite:
-```
-[Citation details to be added]
-```
